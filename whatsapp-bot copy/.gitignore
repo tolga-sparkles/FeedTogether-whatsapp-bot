@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Local auth/session data (sensitive)
+auth_data/
+.wwebjs_auth/
+.wwebjs_cache/
+.wwebjs_state/
+.wwebjs_user_data/
+sessions/
+session/
+auth/
+tmp/
+
+# Env/config
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Puppeteer/Chromium user data
+puppeteer_*/
+chrome-user-data/
+.user-data
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
